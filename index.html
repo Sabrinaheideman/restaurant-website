@@ -9,7 +9,7 @@
 
 <body>
 
-  <div>
+  <div id="top">
     <img class="logo" src="images/placeholder-1by1.svg" alt="">
     <header>
       <div class="nav">
@@ -19,10 +19,10 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#">Best Sellers</a></li>
-            <li><a href="#">Special Offers</a></li>
-            <li><a href="#">Staff</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#best-sellers">Best Sellers</a></li>
+            <li><a href="#special-offers">Special Offers</a></li>
+            <li><a href="#about-staff">Staff</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
           </ul>
         </nav>
         <div class="media">
@@ -33,29 +33,31 @@
       </div>
     </header>
     <div class="banner">
-      <h2>Say Hello to Variety,</h2>
+      <h2>Say <bold>Hello</bold> to Variety,</h2>
         <p>Marketplace Food Court has affordable food, such as: hamburgers, wraps, pizza, salads, and much much more!</p>
-      <a class="btn btn-big" href="#">See Menu Here</a>
+      <a class="btn btn-big" href="#best-sellers">See Menu Here</a>
     </div>
   </div>
 
+  <main>
+
   <section class="cards">
     <div class="card-best-sellers">
-      <a class="btn btn-small" href="">Have a look at our Best Sellers</a>
+      <a class="btn btn-small" href="#best-sellers">Have a look at our Best Sellers</a>
     </div>
     <div class="card-special-offers">
-      <a class="btn btn-small" href="">Don't forget about our Special Offers</a>
+      <a class="btn btn-small" href="#special-offers">Don't forget about our Special Offers</a>
     </div>
     <div class="card-about-staff">
-      <a class="btn btn-small" href="">Read about the amazing Staff</a>
+      <a class="btn btn-small" href="#about-staff">Read about the amazing Staff</a>
     </div>
     <div class="card-contact-us">
-      <a class="btn btn-small" href="">Contact Us</a>
+      <a class="btn btn-small" href="#contact-us">Contact Us</a>
     </div>
   </section>
 
   <section class="best-sellers">
-    <h2>Best Sellers</h2>
+    <h2 id="best-sellers">Best Sellers</h2>
     <div class="h3-123">
       <h3>???</h3>
         <p>???</p>
@@ -64,9 +66,9 @@
       <h3>???</h3>
         <p>???</p>
     </div>
-    <figure class="img1">
+    <div class="img1">
       <img src="images/placeholder-1by1.svg" alt="">
-    </figure>
+    </div>
     <div class="h3-456">
       <h3>???</h3>
         <p>???</p>
@@ -75,43 +77,45 @@
       <h3>???</h3>
         <p>???</p>
     </div>
-    <figure class="img2">
+    <div class="img2">
       <img src="images/placeholder-1by1.svg" alt="">
-    </figure>
+    </div>
   </section>
 
   <section class="special-offers">
-    <h2>Special Offers</h2>
+    <h2 id="special-offers">Special Offers</h2>
     <div class="offer1">
       <h3>???</h3>
         <p>???</p>
     </div>
-    <figure class="img3">
+    <div class="img3">
       <img src="images/placeholder-1by1.svg" alt="">
-    </figure>
+    </div>
     <div class="offer2">
       <h3>???</h3>
         <p>???</p>
     </div>
-    <figure class="img4">
+    <div class="img4">
       <img src="images/placeholder-1by1.svg" alt="">
-    </figure>
+    </div>
   </section>
 
   <section class="about-staff">
-    <h2>About Staff</h2>
-    <figure class="img5">
+    <h2 id="about-staff">About Staff</h2>
+    <div class="img5">
       <img src="images/placeholder-1by1.svg" alt="">
-    </figure>
+    </div>
     <div>
       <h3>???></h3>
       <p>???</p>
     </div>
   </section>
 
+  </main>
+
   <footer>
-    <img class="back-2-top" src="images/placeholder-1by1.svg" alt="">
-    <h2>Contact Us</h2>
+    <a href="#top"><img class="back-2-top" src="images/placeholder-1by1.svg" alt=""></a>
+    <h2 id="contact-us">Contact Us</h2>
     <p>???</p>
   </footer>
 </body>
