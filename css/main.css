@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  padding: 2rem 0 0 5.7rem;
+  padding: 2rem 0 0 3.7rem;
   background-color: #ccc;
   position: absolute;
   top: 0;
@@ -49,7 +49,7 @@ h1 {
   font-size: 10%;
   position: absolute;
   top: 0.55rem;
-  left: 3.5rem;
+  left: 3.7rem;
 }
 
 .media1 {
@@ -97,4 +97,42 @@ nav a:hover {
   background-color: #333;
   color: #fff;
   padding: .5rem;
+}
+
+h2 {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  font-size: 1.3rem;
+}
+
+bold {
+  font-size: 3rem;
+}
+
+.banner p {
+  font-size: 70%;
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+  right: 1rem;
+}
+
+.btn-big {
+  font-size: 20%;
+  display: inline-block;
+  padding: .7em;
+  border-width: 3px;
+  list-style-type: none;
+  background-color: #ccc;
+  color: #333;
+  text-decoration: none;
+  position: absolute;
+  left: 1rem;
+  top: 15rem;
+}
+
+.btn-big:hover {
+  background: #333;
+  color: #fff;
 }
