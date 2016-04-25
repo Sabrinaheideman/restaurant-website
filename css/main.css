@@ -38,7 +38,7 @@ header {
 }
 
 .logo {
-  width: 10%;
+  width: 8%;
   display: block;
   position: absolute;
   top: 1rem;
@@ -135,4 +135,89 @@ bold {
 .btn-big:hover {
   background: #333;
   color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+section a {
+  color: white;
+}
+
+.card-best-sellers a {
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  background-color: #999;
+}
+
+.card-special-offers a {
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  background-color: #999;
+}
+
+.card-about-staff a {
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  background-color: #999;
+}
+
+.card-contact-us a {
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  background-color: #999;
+}
+
+.card-best-sellers:hover a {
+  background-color: #333;
+}
+
+.card-special-offers:hover a {
+  background-color: #333;
+}
+
+.card-about-staff:hover a {
+  background-color: #333;
+}
+
+.card-contact-us:hover a {
+  background-color: #333;
+}
+
+section img {
+  width: 100%;
+}
+
+footer img {
+  width: 5%;
+}
+
+@media only screen and (min-width: 25em) {
+  .logo {
+    width: 8%;
+  }
+
+  h1 {
+
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    font-size: 25%;
+  }
+
+  .logo {
+    width: 5%;
+  }
 }
