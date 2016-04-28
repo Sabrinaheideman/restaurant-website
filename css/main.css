@@ -46,7 +46,7 @@ header {
 }
 
 h1 {
-  font-size: .5rem;
+  font-size: .7rem;
   position: absolute;
   top: 0.55rem;
   left: 3.7rem;
@@ -78,7 +78,7 @@ h1 {
 
 nav ul {
   margin: 0;
-  padding: 0rem 1rem 1rem 3rem;
+  padding: 0rem 1rem 1rem 1rem;
 }
 
 nav li {
@@ -90,7 +90,7 @@ nav a {
   display: inline-block;
   color: #333;
   text-decoration: none;
-  font-size: 10%;
+  font-size: 65%;
 }
 
 nav a:hover {
@@ -118,7 +118,7 @@ bold {
 }
 
 .btn-big {
-  font-size: 20%;
+  font-size: 65%;
   display: inline-block;
   padding: .7em;
   border-width: 3px;
@@ -303,7 +303,47 @@ footer img {
   }
 
   .photo3 {
-    
+    display: block;
+    margin-left: auto;
+  }
+
+  .photo5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-best-sellers {
+    float: left;
+    width: 50%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    max-width: 20em;
+  }
+
+  .card-special-offers {
+    float: left;
+    width: 50%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    max-width: 20em;
+  }
+
+  .card-about-staff {
+    float: left;
+    width: 50%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    max-width: 20em;
+  }
+
+  .card-contact-us {
+    float: left;
+    width: 50%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 4em;
+    max-width: 20em;
   }
 
 }
