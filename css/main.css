@@ -347,3 +347,68 @@ footer img {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h2 {
+  font-size: 200%;
+  }
+
+  .banner p {
+    font-size: 100%;
+
+  }
+
+  .btn-big {
+    font-size: 100%;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0rem 1rem 1rem 8rem;
+  }
+
+  nav a {
+    font-size: 85%;
+    padding-left: 1.3rem;
+  }
+
+  .card-best-sellers {
+    float: left;
+    width: 25%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    max-width: 20em;
+  }
+
+  .card-special-offers {
+    float: left;
+    width: 25%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    max-width: 20em;
+  }
+
+  .card-about-staff {
+    float: left;
+    width: 25%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    max-width: 20em;
+  }
+
+  .card-contact-us {
+    float: left;
+    width: 25%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 4em;
+    max-width: 20em;
+  }
+
+}
